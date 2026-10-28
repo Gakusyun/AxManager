@@ -124,8 +124,8 @@
     <string name="learn_more">关于AxManager</string>
     <string name="learn_more_msg">了解如何使用AxManager以及如何制作插件</string>
     <string name="updating">更新中…</string>
-    <string name="server_updating_version"formatted="false"><![CDATA[更新中：%d→%d]]></string>
-    <string name="version_pid"formatted="false">版本：%d|进程ID：%d</string>
+    <string name="server_updating_version" formatted="false"><![CDATA[更新中：%d→%d]]></string>
+    <string name="version_pid" formatted="false">版本：%d|进程ID：%d</string>
     <string name="day_singular">天</string>
     <string name="day_plural">天</string>
     <string name="home_need_fix">需要额外的步骤</string>
@@ -187,7 +187,7 @@
     <string name="settings_env_badge_after">之后+%d</string>
     <string name="settings_env_nothing_added">未添加任何条目：$%1$s按原样使用。</string>
     <plurals name="settings_env_added">
-    <itemquantity="other">已向默认值添加%d个条目</item>
+        <item quantity="other">已向默认值添加%d个条目</item>
     </plurals>
     <string name="server_shutdown">正在停止服务</string>
     <string name="server_restart">正在重启服务</string>
@@ -240,7 +240,7 @@
     <string name="uid_value">进程ID：%d</string>
     <string name="start_as_shell">以Shell身份启动</string>
     <string name="prefer_system_binaries">优先使用系统二进制文件</string>
-    <string name="prefer_system_binaries_desc">在PATH中将Android内置二进制文件置于Axeron/busybox之前，使快速终端中的命令使用系统版本。</    string>
+    <string name="prefer_system_binaries_desc">在PATH中将Android内置二进制文件置于Axeron/busybox之前，使快速终端中的命令使用系统版本。</string>
     <string name="privilege_empty_title">这里还什么都没有</string>
     <string name="privilege_empty_desc">已安装的用户应用会显示在这里以供管理。</string>
     <string name="server_uid">服务UID</string>
@@ -677,7 +677,7 @@
     <string name="quickshell_save_column">保存</string>
     <string name="quickshell_shell_section">终端</string>
     <string name="run_in_any_terminal">在任意终端中运行</string>
-    <string name="run_in_any_terminal_desc">参数与sh相同，例如-c\'id\'。终端需要存储权限（在Termux中执行termux-setup-storage）。</  string>
+    <string name="run_in_any_terminal_desc">参数与sh相同，例如-c\'id\'。终端需要存储权限（在Termux中执行termux-setup-storage）。</string>
     <string name="run_in_any_terminal_run">使用sh运行</string>
     <string name="run_in_any_terminal_install">安装到Termux后即可直接使用axsh</string>
     <string name="run_in_any_terminal_failed">无法写入%s：服务是否正在运行？</string>
@@ -739,7 +739,7 @@
     <string name="quick_settings_error_integer">整数滑块需要整数</string>
     <string name="quick_settings_error_range">最小值必须小于最大值，且步长须适合该范围</string>
     <plurals name="settings_value_matches">
-    <itemquantity="other">“%2$s”有%1$d个匹配项</item>
+        <item quantity="other">“%2$s”有%1$d个匹配项</item>
     </plurals>
     <string name="settings_value_match_position">“%3$s”的第%1$d/%2$d个匹配项</string>
     <string name="settings_value_truncated">%1$d行·%2$d个字符·点击查看全部</string>
